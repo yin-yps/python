@@ -24,4 +24,4 @@ try:
     smtpObj.sendmail(sender,receivers,messages.as_string())
     print('send success')
 except smtplib.SMTPException as e:
-	print('ERROR:',e)
+	print('ERROR IS:',e)
